@@ -22,17 +22,15 @@ function Header() {
       <div className=" flex w-5 md:w-auto ml-2   flex-grow items-center pl-2 py-2 bg-gray-100 text-gray-600 rounded-lg focus-within:text-gray-600 focus-within:shadow-md">
         <Icon name="search" size="3xl" color="darkgray" />
         <input
-        
           type="text"
           placeholder="Search"
           className=" flex-grow text-base bg-transparent outline-none"
         />
       </div>
 
-      <Icon name="apps" size="3xl" color="gray"/>
+      <Icon name="apps" size="3xl" color="gray" />
 
       <img
-        
         loading="lazy"
         className="cursor-pointer h-12 w-12 rounded-full ml-5"
         src={session?.user?.image}
@@ -46,7 +44,7 @@ function Header() {
         ripple="dark"
         className=" md:inline-flex h-14 w-14 border-0"
       >
-        <Icon name="logout" size="3xl"  />
+        <Icon name="logout" size="3xl" />
       </Button>
     </div>
   );
